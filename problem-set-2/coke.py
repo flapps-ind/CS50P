@@ -13,6 +13,6 @@ def machine():
     else:
       print(f"Amount Due: {balance}")
       
-  print("Change owed: 0")      
+  print(f"Change owed: {-balance}")      
 main()        
       
