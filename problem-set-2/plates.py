@@ -17,7 +17,7 @@ def is_valid(s):
             return False
     for ch in s:
        
-        if ch.isdigit:
+        if ch.isdigit():
             if i < 2 and ch == "0":
                 return False
             elif s[len(s)-1].isalpha(): 
